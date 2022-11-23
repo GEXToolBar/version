@@ -17,4 +17,4 @@ if Command = "guns" then
 	elseif Command = "killall" then
 	KillAll()
 end
-local newvariable
+local newvariable = "HI!"
