@@ -16,4 +16,5 @@ if Command = "guns" then
 	Discord()
 	elseif Command = "killall" then
 	KillAll()
-	end
+end
+local newvariable
