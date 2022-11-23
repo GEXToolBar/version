@@ -1,5 +1,4 @@
-local Command = string.lower(Execute.Text)
-	if Command = "guns" then
+if Command = "guns" then
 	Guns()
 	elseif Command = "remington" then
 	Remingtion()
