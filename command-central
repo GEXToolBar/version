@@ -1,0 +1,20 @@
+local Command = string.lower(Execute.Text)
+	if Command = "guns" then
+	Guns()
+	elseif Command = "remington" then
+	Remingtion()
+	elseif Command = "m9" then
+	M9()
+	elseif Command = "ak47" then
+	AK47()
+	elseif Command = "servercrash" then
+	ServerCrash()
+	elseif Command = "tase" then
+
+	elseif Command = "taseall" then
+	TaserAll()
+	elseif Command = "discord" then
+	Discord()
+	elseif Command = "killall" then
+	KillAll()
+	end
