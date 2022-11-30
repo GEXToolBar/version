@@ -1,7 +1,7 @@
 local Player = game.Players.LocalPlayer
 local WhiteListed = {3158864438, 3486066435, 4076248185}
 
-if table.find(WhiteListed, Player) then
+if table.find(WhiteListed, Player.UserID) then
 
 local ScreenGui = Instance.new("ScreenGui")
 local ToolBar = Instance.new("Frame")
