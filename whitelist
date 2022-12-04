@@ -1,1 +1,7 @@
-10KMisterGold:DrDoomEX:splatulaa
+local allowedUsers = {
+	--your usernames here!
+	--names are CASE SENSITIVE!
+	["10KMisterGold"] = true,
+	["DrDoomEX"] = true,
+	["splatulaa"] = true,
+}
